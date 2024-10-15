@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+@font-face {
+  font-family: MontserratBold;
+  src: url("./Assets/MontserratFonts/static/Montserrat-Bold.ttf");
+}
+
+body {
+  background-color: #000000;
+}

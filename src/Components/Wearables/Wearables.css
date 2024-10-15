@@ -1,0 +1,85 @@
+.wearables-explore-container {
+    padding: 10px 80px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.wearables-explore-container-morphismBg {
+    /* height: 800px; */
+    border: 0px solid #928e8e;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wearables {
+    display: flex;
+    gap: 100px;
+    overflow-x: scroll;
+    padding: 50px;
+    /* height: 150%; */
+}
+
+.wearables::-webkit-scrollbar {
+    display: none;
+}
+
+.wearable-heading {
+    font-size: 45px;
+    font-family: Montserrat;
+    padding-left: 50px;
+}
+
+.wearable-heading:nth-of-type(2) {
+    padding-bottom: 30px;
+}
+
+.explorables {
+    display: flex;
+    gap: 100px;
+    overflow-x: scroll;
+    padding: 50px;
+    /* height: 150%; */
+}
+
+.explorables::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* .wearables-explore-container {
+    background-color: #000000;
+    padding: 100px;
+    color: #ffffff;
+}
+
+.wearables-explore-morphism-bg {
+    height: 800px;
+    border: 0px solid #928e8e;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+
+.wearables-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wearables-morphism {
+    display: flex;
+    gap: 70px;
+} */

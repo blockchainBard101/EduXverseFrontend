@@ -1,0 +1,236 @@
+.spaces-container {
+    background-image: linear-gradient(
+    130deg,
+    hsl(211deg 100% 65%) 0%,
+    hsl(210deg 85% 58%) 0%,
+    hsl(207deg 81% 48%) -1%,
+    hsl(205deg 100% 41%) -1%,
+    hsl(207deg 100% 38%) -1%,
+    hsl(208deg 100% 35%) -2%,
+    hsl(210deg 100% 32%) -2%,
+    hsl(212deg 100% 29%) -1%,
+    hsl(215deg 100% 26%) -1%,
+    hsl(217deg 100% 23%) 1%,
+    hsl(220deg 100% 21%) 4%,
+    hsl(224deg 100% 18%) 10%,
+    hsl(0deg 0% 0%) 36%
+  );
+    color: #ffffff;
+    padding: 50px;
+}
+
+.spaces-morphism-bg {
+    height: 800px;
+    border: 0px solid #928e8e;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    /* padding-left: 10px; */
+    padding: 10px 50px 30px 50px;
+}
+
+.spaces-morphism-bg h1 {
+    margin: 50px 0 50px 80px;
+    font-family: Montserrat;
+    cursor: pointer;
+    background: linear-gradient(to right, #C0E6FF, #175597, #6b98b6);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.spaces-morphism-bg div {
+    display: flex;
+    /* margin: 0 20px; */
+    flex-shrink: 0;
+    overflow-x: scroll;
+}
+
+.spaces-morphism-bg div::-webkit-scrollbar {
+    display: none;
+}
+
+.spaceDesign-container, .topPicks-container {
+    width: 350px;
+    height: 250px;
+    /* border: 1px solid #fff; */
+    font-family: Open Sans;
+    border-radius: 30px;
+    background-color: #fff;
+    position: relative; /* Add this */
+    background-image: url('../../Assets/Wallpaper_11.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.spaceDesign-container-overlay {
+    flex-direction: column;
+    /* align-items: stretch; */
+    justify-content: space-between;
+    height: 40%;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    padding-left: 20px;
+    /* animation: slideIn 1s forwards; */
+    border-radius: 0 0  2px 20px;
+}
+
+/* @keyframes slideIn {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
+
+.spaceTop-info {
+    font-size: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.spaceTop-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-profile-logo {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.spaceTop-info div p {
+    margin-bottom: 0;
+}
+
+.spaceTop-info div p:nth-of-type(1) {
+    margin-bottom: -10px;
+}
+
+.spaceTop-info button {
+    font-size: 12px;
+    border: 0px;
+    border-radius: 50px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    align-self: center;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    font-family: Open Sans;
+    cursor: pointer;
+}
+
+.spaceButtom-info {
+    display: flex;
+    font-size: 10px;
+    justify-self: end;
+    padding: 5px 20px 10px 0px;
+    justify-content: space-between;
+}
+
+.spaceButtom-infoP {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.spaceButtom-infoP p {
+    margin: 0;
+}
+
+.spaceButtom-infoP div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.space-friend-logo {
+    font-size: 15px;
+}
+
+.spaceButtom-info button {
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-family: Open Sans;
+    cursor: pointer;
+}
+
+.topPicks-container-overlay {
+    justify-content: space-between;
+    height: 40%;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    padding-left: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.topPicks-container-overlay {
+    display: flex;
+    flex-direction: column;
+}
+
+.topPicks-container-overlay p {
+    margin: 0;
+    font-size: 10px;
+}
+
+.topPicks-container-overlay div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.topPicks-container-overlay div:nth-of-type(1) div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.topPicks-container-overlay div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 10px; */
+}
+
+.topPicks-container-overlay div:nth-of-type(2) p:nth-of-type(1) {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.topPicks-container-overlay div:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* gap: 10px; */
+}
+
+.topPicks-container-overlay div:nth-of-type(3) div {
+    display: flex;
+    gap: 10px;
+}
+
+.topPicks-container-overlay div:nth-of-type(3) button {
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-family: Open Sans;
+    cursor: pointer;
+    margin-right: 20px;
+}

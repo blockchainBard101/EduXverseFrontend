@@ -1,0 +1,134 @@
+.hero-section {
+    margin: 0;
+    position: relative;
+    padding-left: 180px;
+    padding-right: 50px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(
+      45deg,
+      hsl(211deg 100% 65%) 0%,
+      hsl(210deg 85% 58%) 0%,
+      hsl(207deg 81% 48%) -1%,
+      hsl(205deg 100% 41%) -1%,
+      hsl(207deg 100% 38%) -1%,
+      hsl(208deg 100% 35%) -2%,
+      hsl(210deg 100% 32%) -2%,
+      hsl(212deg 100% 29%) -1%,
+      hsl(215deg 100% 26%) -1%,
+      hsl(217deg 100% 23%) 1%,
+      hsl(220deg 100% 21%) 4%,
+      hsl(224deg 100% 18%) 10%,
+      hsl(0deg 0% 0%) 39%
+    );
+}
+
+.learn-hero-section {
+    margin: 0;
+    position: relative;
+    padding-left: 180px;
+    height: 80vh;
+    display: flex;
+    /* background-image: url('https://my.spline.design/roomgirlworkingcopy-2b56486ffa579217bd596f6e35d77f81/'); */
+    /* justify-content: space-between; */
+    background-image: linear-gradient(
+      45deg,
+      hsl(211deg 100% 65%) 0%,
+      hsl(210deg 85% 58%) 0%,
+      hsl(207deg 81% 48%) -1%,
+      hsl(205deg 100% 41%) -1%,
+      hsl(207deg 100% 38%) -1%,
+      hsl(208deg 100% 35%) -2%,
+      hsl(210deg 100% 32%) -2%,
+      hsl(212deg 100% 29%) -1%,
+      hsl(215deg 100% 26%) -1%,
+      hsl(217deg 100% 23%) 1%,
+      hsl(220deg 100% 21%) 4%,
+      hsl(224deg 100% 18%) 10%,
+      hsl(0deg 0% 0%) 39%
+    );
+}
+
+/* .hero-tinted-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%; 
+    height: 100%;
+    background-color: rgba(0, 140, 255, 0.5);
+    z-index: 1;
+} */
+
+.hero-content {
+    color: #fff;
+    margin-top: 80px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 0; 
+    font-family: Inter;
+    font-weight: 900;
+    letter-spacing: 5px;
+    background: linear-gradient(to right, #C0E6FF, #2269b5, #C0E6FF);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-content p:nth-of-type(1) {
+    margin-bottom: 100px;
+    font-size: 20px;
+    /* margin-top: -2px; */
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+/* .hero-content p:nth-of-type(1) {
+    margin-bottom: 100px;
+    font-size: 20px;
+    margin-top: -2px;
+    font-family: Roboto;
+    font-weight: 300;
+} */
+
+.hero-content p:nth-of-type(2) {
+    line-height: 2;
+    font-size: 20px;
+    font-family: Inter;
+}
+
+.hero-content button {
+    margin-right: 30px;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #000000;
+    background-color: #D9D9D9;
+}
+
+.hero-content button a:hover {
+    color: #ffffff;
+}
+
+.hero-content button a {
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+
+.pagination-right {
+    position: absolute;
+    font-size: 50px;
+    color: #ffffff;
+    right: 50px;
+    bottom: 300px;
+}
+
+.pagination-left {
+    position: absolute;
+    font-size: 50px;
+    color: #ffffff;
+    left: 50px;
+    bottom: 300px;
+}

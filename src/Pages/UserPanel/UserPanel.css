@@ -1,0 +1,98 @@
+.user-panel {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 70px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.user-panel h1 {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.user-panel p {
+    font-family: Inter;
+}
+
+.user-panel-top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-profile {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px 100px;
+    border-radius: 30px;
+}
+
+.user-profile-stats {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.user-profile-stats p {
+    color: #a59a9a;
+}
+
+.color {
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+
+.profile-stat-title, .profile-stat-color {
+    border-right: 1px solid #a59a9a;
+    padding-right: 100px;
+}
+
+.profile-stat-color {
+    padding-left: 50px;
+}
+.profile-stat-rate {
+    padding-right: 150px;
+}
+
+.profile-pics-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px 100px;
+    border-radius: 30px;
+}
+
+.profile-pics-section div div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2px 5px;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: -20px;
+}
+
+.profile-pics-section p:nth-of-type(1) {
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.user-panel-bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-panel-bottom-section div {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px 30px;
+    border-radius: 30px;
+}

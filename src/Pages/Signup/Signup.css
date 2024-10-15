@@ -1,0 +1,75 @@
+.signup {
+    padding: 93px 150px;
+    background-image: linear-gradient(
+    45deg,
+    hsl(211deg 100% 65%) 0%,
+    hsl(210deg 85% 58%) 0%,
+    hsl(207deg 81% 48%) -1%,
+    hsl(205deg 100% 41%) -1%,
+    hsl(207deg 100% 38%) -1%,
+    hsl(208deg 100% 35%) -2%,
+    hsl(210deg 100% 32%) -2%,
+    hsl(212deg 100% 29%) -1%,
+    hsl(215deg 100% 26%) -1%,
+    hsl(217deg 100% 23%) 1%,
+    hsl(220deg 100% 21%) 4%,
+    hsl(224deg 100% 18%) 10%,
+    hsl(0deg 0% 0%) 39%
+  );
+}
+
+.signup h1 {
+  margin: 0;
+}
+
+.signup-container {
+    border: 1px solid #928e8e;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 97px 80px;
+}
+
+.inner-signup-container {
+    border-radius: 30px;
+    background-color: rgba(24, 22, 22, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.inner-signup-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-signup-container h1 {
+    font-size: 50px;
+    font-family: Montserrat;
+}
+
+.inner-signup-container p {
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.inner-signup-container button {
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.inner-signup-container div:nth-of-type(2) {
+    gap: 20px;
+}
+
+.inner-signup-container div:nth-of-type(2) button {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}

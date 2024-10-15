@@ -1,0 +1,70 @@
+.roadmap {
+    background-color: #000000;
+    margin: 0;
+    color: #ffffff;
+    padding: 100px;
+    text-align: center;
+    font-family: Montserrat;
+    background-image: linear-gradient(
+      45deg,
+      hsl(211deg 100% 65%) 0%,
+      hsl(210deg 85% 58%) 0%,
+      hsl(207deg 81% 48%) -1%,
+      hsl(205deg 100% 41%) -1%,
+      hsl(207deg 100% 38%) -1%,
+      hsl(208deg 100% 35%) -2%,
+      hsl(210deg 100% 32%) -2%,
+      hsl(212deg 100% 29%) -1%,
+      hsl(215deg 100% 26%) -1%,
+      hsl(217deg 100% 23%) 1%,
+      hsl(220deg 100% 21%) 4%,
+      hsl(224deg 100% 18%) 10%,
+      hsl(0deg 0% 0%) 39%
+    );
+}
+
+.roadmap h1 {
+    /* margin:; */
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+
+.roadmap-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 500px; */
+}
+
+.build-container, .testing-container, .launch-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* .build-container h2 {
+    padding-top: 40px;
+} */
+
+.first-layer, .second-layer, .third-layer {
+    padding: 30px;
+    border-radius: 50%;
+    -webkit-box-shadow: 14px 12px 74px -2px rgba(0,0,0,0.81);
+    -moz-box-shadow: 14px 12px 74px -2px rgba(0,0,0,0.81);
+    box-shadow: 14px 12px 74px -2px rgba(0,0,0,0.81);
+}
+
+.first-layer {
+    background-color: #100629;
+}
+
+.second-layer {
+    background-color: #220c5c;
+}
+
+.third-layer {
+    background-color: #3e17a2;
+}
+/* 4431BA */
+/* 4431BA */
+/* 4431BA */

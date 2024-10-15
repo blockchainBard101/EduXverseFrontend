@@ -1,0 +1,59 @@
+.team {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 100px;
+    background-image: linear-gradient(
+    130deg,
+    hsl(211deg 100% 65%) 0%,
+    hsl(210deg 85% 58%) 0%,
+    hsl(207deg 81% 48%) -1%,
+    hsl(205deg 100% 41%) -1%,
+    hsl(207deg 100% 38%) -1%,
+    hsl(208deg 100% 35%) -2%,
+    hsl(210deg 100% 32%) -2%,
+    hsl(212deg 100% 29%) -1%,
+    hsl(215deg 100% 26%) -1%,
+    hsl(217deg 100% 23%) 1%,
+    hsl(220deg 100% 21%) 4%,
+    hsl(224deg 100% 18%) 10%,
+    hsl(0deg 0% 0%) 36%
+  );
+}
+
+.team h1 {
+    margin: 0;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Montserrat;
+}
+
+.team-members {
+    display: flex;
+    overflow-x: scroll;
+    gap: 40px;
+}
+
+.team-members::-webkit-scrollbar {
+    display: none;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-pics {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.member-name {
+    font-family: Montserrat;
+}
+
+.member-role {
+    font-family: Roboto;
+}
